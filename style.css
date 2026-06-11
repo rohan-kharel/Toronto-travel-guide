@@ -1,0 +1,111 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Instrument Sans';
+}
+
+a{
+    color: inherit;
+    font-style: none;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 16px;
+}
+
+.hero-text{
+    height: 100%;
+    margin-top: 10%;
+    align-items: start;
+}
+
+.hero-title{
+    font-family: 'Instrument Serif';
+    font-weight: 200;
+    max-width: 200px;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 0;
+}
+
+.hero-caption{
+    color: #C4C4C4;
+}
+
+.hero-img{
+    width: 50%;
+    height: auto;
+}
+
+.info1-container{
+    
+}
+
+.info1-title{
+    text-align: center;
+    font-weight: normal;
+}
+
+.info1-grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info1-item{
+    background-color: #E7F0FF;
+    padding: 20px;
+}
+
+.info1-item-title{
+    font-family: 'Instrument Serif';
+    font-weight: 200;
+    font-size: 48px;
+    margin: 0;
+}
+
+.info2{
+    margin-top: 36px;
+    width: 100%;
+}
+
+.info3-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.info3-title{
+    text-align: center;
+    font-weight: 200;
+}
+
+.info3-content{
+    text-align: left;
+    margin: auto 200px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.info3-highlight{
+    font-weight: 800;
+    color: #274060;
+}
+
+.info3-img{
+    width: 100%;
+    margin-top: 80px;
+    
+}
